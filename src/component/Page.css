@@ -1,0 +1,18 @@
+.clc {
+    border: 2px solid black;
+}
+.red {
+   display: grid;
+   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+   column-gap: 3px;
+   width: 800px;
+   text-align: center;
+   margin-left: 350px;
+}
+.box {
+    border: 3px solid rgb(166, 97, 232);
+    padding: 5px;
+    font-size: large;
+    color: saddlebrown;
+    font-weight: 500;
+}

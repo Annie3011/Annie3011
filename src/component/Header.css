@@ -1,0 +1,26 @@
+#ns1 {
+    display:flex;
+    background-color: rgb(36, 34, 34);
+    position: absolute;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    top:0;
+}
+#ns1 h1{
+    color: white;
+    width: 35%;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 6px;
+}
+#ns1 #head1{
+    margin-left: 34%;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+}
+#head1 a{
+    margin: 33px;
+    font-size: large;
+}

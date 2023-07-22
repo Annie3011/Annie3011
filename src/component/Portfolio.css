@@ -1,0 +1,30 @@
+#prots {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 70px;
+}
+#prt {
+    font-size: x-large;
+    padding-left: 70px;
+    padding-bottom: 0%;
+}
+#prots1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 70px;
+    padding-top: 40px;  
+}
+#prots2 {
+   margin: 60px;
+   margin-left: 660px;
+}
+#prots2 button{
+    padding: 20px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+#prots2 button:hover{
+    background-color: rgb(101, 99, 99);
+}

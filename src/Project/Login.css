@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+  }
+  
+  .inpbox{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      margin-left: 60px;
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      text-align: center;
+      text-decoration: underline;
+  }
+  
+  .btt10 {
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: green;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 10px;
+  }
+ .bbt10 button:hover{
+    background-color:green;
+    color: white;
+}
+body {
+    background-color: lavender;
+}

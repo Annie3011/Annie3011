@@ -1,0 +1,38 @@
+#ton button{
+    height: 60px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-color: gainsboro;
+    box-shadow: 1px 1px rgb(154, 151, 151);
+    opacity: 1px;
+}
+#ton {
+    margin-left: 650px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#ton button:hover {
+    background-color: black;
+    color: white;
+}
+#abt {
+    background-image: url(../component/about_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+#lin h1{
+    padding-bottom: 1px;
+}
+#lin4 {
+    border: 5px solid white;
+    width: 60px;
+    margin-left: 730px;
+   
+}

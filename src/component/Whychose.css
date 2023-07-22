@@ -1,0 +1,35 @@
+#fli {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 50px;
+    margin-left: 100px;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+#bgc {
+    background-color: rgb(48, 45, 45);
+    padding: 30px;
+}
+.cln {
+    color: white;
+    font-size: large;
+}
+.cln button{
+    padding: 15px;
+    width: 180px;
+    font-size: medium;
+}
+.cln button:hover {
+    background-color: black;
+    color: white;
+}
+#wcu {
+    color: white;
+    margin-left: 90px;
+   
+}
+#lin3 {
+    border: 5px solid white;
+    width: 60px;
+    margin-left: 90px;
+}

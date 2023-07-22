@@ -1,0 +1,34 @@
+#bnn {
+    font-size: 100px;
+    font-weight: bolder;
+   margin-bottom: 10px;
+}
+#med {
+    font-size: large;
+    margin-top: 10px;
+}
+.btt {
+    background-color: whitesmoke;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    padding-right: 40px;
+    width: 250px;
+    height: 60px;
+    margin-left: 1px;
+    margin-top: 30px;
+    font-size: medium;
+}
+#bnr {
+    background-image: url(../component/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: white;
+}
+.btt:hover {
+    background-color: black;
+    color: white;
+}
