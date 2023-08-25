@@ -1,0 +1,54 @@
+.box0{
+    display: grid;
+    grid-template-columns: 16% 21% 23% 20% 20%;
+    border: 2px rgb(243, 129, 129) solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 4px;
+    color:rgb(107, 15, 88);
+    background-color: rgb(235, 235, 218);
+}
+.box1{
+    display: grid;
+    grid-template-columns: 14% 26% 19% 6% 3% 14% 14%; 
+    border: 1px black none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 4px;
+    color: rgb(99, 72, 72);
+}
+.btt5 {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#blue{
+  background-color: rgb(111, 111, 213);
+  font-size:medium;
+  color: white;
+}
+#blue:hover{
+    background-color: rgb(29, 29, 165);
+}
+#green{
+    background-color: rgb(119, 212, 119);
+    font-size: xx-large;
+    color: white;
+  }
+  #green:hover{
+    background-color: rgb(29, 123, 29);
+  }
+#red{
+    background-color: rgb(217, 103, 103);
+    font-size: xx-large;
+    color: white;
+}
+#red:hover{
+    background-color: rgb(161, 29, 29);
+}

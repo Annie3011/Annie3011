@@ -1,0 +1,25 @@
+.inp2{
+    display: flex;
+    flex-direction: column;
+    border: white solid 5px;
+    /* width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: 50px; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    padding-bottom: 50px;
+}
+#div3 {
+    width: 300px;
+    height: 800px;
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 420px;
+    margin-top: 80px;
+}
+.kll {
+    background-color: lavender;
+}

@@ -1,0 +1,88 @@
+.align {
+  border: 5px none black;
+  border-radius: 5px;
+  margin-left: 50px;
+ 
+}
+.jkk{
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+body{
+    background-color: white;
+}
+#cll {
+   padding: 0px;
+   margin: 0px;
+   
+   color: rgb(33, 33, 33);
+   height: 100px;
+   margin-bottom: 0%;
+   padding-bottom: 0%;
+   font-style: italic;
+   font-size: x-large;
+ 
+   border-radius: 2px;
+}
+.bxx {
+    border: 3px black none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tab{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 1px none black;
+    padding: 1px;
+    /* margin-left: 1px; */
+    border-radius: 5px;
+    /* padding-left: 400px; */
+    font-size: x-large;
+    color: rgb(132, 19, 19);
+}
+#buy{
+   border:  1px none ;
+   padding: 12px;
+   margin: 5px;
+   font-size: medium;
+   background-color:rgb(133, 133, 218);
+   color: white;
+   text-decoration: none;
+   border-radius: 3px;
+   margin-left: 580px;
+   margin-bottom: 10px;
+   padding-right: 50px;
+   padding-left: 50px;
+}
+#add{
+    border: 1px solid black;
+   padding: 11px;
+   margin: 8px;
+   font-size: medium;
+   background-color:rgb(133, 133, 218);;
+   color: white;
+   text-decoration: none;
+   border-radius: 3px;
+   padding-right: 50px;
+   padding-left: 50px;
+}
+#add:hover{
+    background-color: rgb(235, 147, 191);
+    font-size:larger;
+}
+#buy:hover{
+    background-color: rgb(235, 147, 191);
+    font-size:larger;
+}
+#kll{
+    padding: 0px;
+    margin-left: 90px;
+    margin-top: 0%;
+}
+.par{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 0%;
+}

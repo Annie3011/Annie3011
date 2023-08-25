@@ -1,6 +1,7 @@
 import React from 'react';
 import { emailValidator, passwordValidator } from '../Project/regexValidator';
-import {useHistory} from "react-router-dom"
+import {Link, useHistory} from "react-router-dom"
+import "../Project/Signin.css"
 function Signin(){
 //    const history = useHistory()
 	const [input, setInput] = React.useState({ email: '', password: '' });
@@ -24,18 +25,19 @@ function Signin(){
 		// localStorage.setItem('auth', true)
 	};
     return(<>
-    <div>
-        <form onSubmit={formSubmitter} className='inpbox'>
+	<div className='kll'>
+    <div id='div3'>
+        <form onSubmit={formSubmitter} className='inp2'>
              <h1>Login Here</h1> 
              {errorMessage.length > 0 && <div style={{marginBottom:"10px",color:"red"}}>{errorMessage}</div>}
             <label>Email</label> 
             <input type='email' name='email'placeholder="Enter your Mail" onChange={handleChange}></input>
             <label>Password</label>
             <input type='password' name='password' placeholder="Enter your password" onChange={handleChange}></input> 
-            <button className="btt10">Login</button>
-           
+			<button className="btt10"><Link to="/Dashboard" className="btt10">Login</Link></button>
         </form>
     </div>
+	</div>
     </>)
 }
 export default Signin

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "../Project/Login.css"
 import FormInput from "./FormInput";
+import { Link, useNavigate } from "react-router-dom";
+
 
 const Login = () => {
   const [values, setValues] = useState({
@@ -60,10 +62,25 @@ const Login = () => {
   };
 
   const onChange = (e) => {
-    setValues({ ...values, [e.target.name]: e.target.value });
+    setValues({ ...values, [e.target.name]: e.target.value }); 
   };
-
+  console.log.apply(values);
+  const regibtt =()=> {
+    console.log(values.password);
+    if (
+      values.name !== ""&&
+      values.email !== ""&&
+      values.password !==""&&
+      values.confirmPassword !==""
+    ){
+      if (values.password === values.confirmPassword){
+        window.location.assign("/login")
+      }
+    }
+  }
+  const Navigate= useNavigate()
   return (
+    <div className="kll1">
     <div className="app">
       <form onSubmit={handleSubmit} className="inpbox">
         <h1>Register</h1>
@@ -75,9 +92,10 @@ const Login = () => {
             onChange={onChange}
           />
         ))}
-        <button className="btt10">Submit</button>
-        <button className="btt10" onClick={()=>{<FormInput/>}}>Already User Login</button>
+        <button className="btt10" onClick={()=>Navigate('/submit')}>Submit</button>
+        <button  className="btt10" onClick={regibtt}><Link to="/login"  className="btt10">Already User Login</Link></button>
       </form>
+    </div>
     </div>
   );
 };

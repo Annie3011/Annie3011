@@ -21,7 +21,18 @@ import Store from "./component/Store";
 import Login from "./Project/Login";
 import Signin from "./Project/Signin";
 import NavScrollExample from "./Project/Dashboard";
+import Dashboard from "./Project/Dashboard";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Singlepage from "./Project/Navbar/Singlepage";
+import Cart from "./Project/Navbar/Cart";
+import { useState } from "react";
+import Productspage from "./Project/Productspage";
+import Submit from "./Project/Submit";
+import Profile from "./Project/Navbar/Profile";
+import Buynow from "./Project/Navbar/Buynow";
+import Search from "./Project/Navbar/Search";
 function App(){
+  
   return(
     <>
      {/* <Header/>
@@ -52,9 +63,28 @@ function App(){
  </Provider>
    
     */}
-   <Login/>
+   {/* <Login/>
    <Signin/>
-   <NavScrollExample/>
+   <NavScrollExample/> */}
+   <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<Login/>}></Route>
+    <Route path="/login" element={<Signin/>}></Route>
+    <Route path="/Dashboard" element={<Dashboard/>}></Route>
+    <Route path="/product/:product_id" element={<Singlepage/>}></Route>
+    <Route path="/Dashboard/Cart" element={<Cart/>}></Route>
+    <Route path="/submit" element={<Submit/>}></Route>
+    <Route path="/profile" element={<Profile/>}></Route>
+    <Route path="/Buynow" element={<Buynow/>}></Route>
+    <Route path="/Search" element={<Search/>}></Route>
+    {/* <Route path="/Dashboard/productspage" element={<Productspage/>}></Route> */}
+    <Route path="/Dashboard/tv" element={<Productspage values={"Electronics|HomeTheater,TV&Video|Televisions|SmartTelevisions"}/>}></Route>
+    <Route path="/Dashboard/cables" element={<Productspage values={"Computers&Accessories|Accessories&Peripherals|Cables&Accessories|Cables|USBCables"}/>}></Route>
+    <Route path="/Dashboard/remote" element={<Productspage values={"Electronics|HomeTheater,TV&Video|Accessories|RemoteControls"}/>}></Route>
+    <Route path="/Dashboard/mobile" element={<Productspage values={"Electronics|Mobiles&Accessories|Smartphones&BasicMobiles|Smartphones"}/>}></Route>
+    <Route path="/Dashboard/earphones" element={<Productspage values={"Electronics|Headphones,Earbuds&Accessories|Headphones|In-Ear"}/>}></Route>
+    </Routes>
+   </BrowserRouter>
     </>
   )
 }

@@ -1,0 +1,40 @@
+#flex1{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-left: 230px;
+    padding: 10px;
+}
+#flex2{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start ;
+    margin-left: 330px;
+    padding: 20px;
+}
+.move1{
+    margin-left: 500px;
+    color: rgb(95, 95, 216);
+    padding: 10px;
+}
+#btt7{
+   width: 200px;
+   height: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 490px;
+   background-color: rgb(164, 164, 242);
+   font-size: medium;
+   color: white;
+   border: none;
+   border-radius: 3px;
+}
+#btt7 button:hover {
+    background-color: rgb(232, 128, 180);
+}
